@@ -385,8 +385,8 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		background-repeat: no-repeat;
 		background-position: 3px 6px;
         display: block;
-        width:15px;
-        height:15px;
+        width:16px;
+        height:16px;
 	}
 	
 		/* Icons */
@@ -402,6 +402,9 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		.social a[href*='git.io'] {background-image: url('../images/icons/github.png');}
 		.social a[href*='gittip.com'] {background-image: url('../images/icons/gittip.png');}
 		.social a[href*='plus.google.com'] {background-image: url('../images/icons/google-plus.png');}
+		.social a[href*='tumblr.com'] {background-image: url('../images/icons/tumblr.png');
+       background-size: 16px 16px;
+        }
 
 /*
 	About
