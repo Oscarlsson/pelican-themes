@@ -206,6 +206,17 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
     padding: 20px;
     /*float:right;*/
 }
+/*
+	Logo picture
+*****************/
+#logopicture {
+    border-radius: 450px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    /*box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);*/
+}
 
 
 /*
@@ -373,6 +384,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	
 	#extras .pages {
 		float: top;
+        text-align: left;
 		width: 265px;
 	}
 	/* Social */
@@ -394,7 +406,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		.social a[href*='digg.com'] {background-image: url('../images/icons/digg.png');}
 		.social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');}
 		.social a[href*='last.fm'], .social a[href*='lastfm.'] {background-image: url('../images/icons/lastfm.png');}
-		.social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png');}
+		.social a[href*='atom+xml'], .social a[href*='rss.xml'] {background-image: url('../images/icons/rss.png');}
 		.social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
 		.social a[href*='linkedin.com'] {background-image: url('../images/icons/linkedin.png');}
 		.social a[href*='gitorious.org'] {background-image: url('../images/icons/gitorious.png');}

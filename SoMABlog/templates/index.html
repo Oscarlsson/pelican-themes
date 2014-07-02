@@ -12,6 +12,8 @@
                         <h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
                         {% include 'article_infos.html' %}{{ article.content }}
                     </article>
+                    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" 
+                       title="Permalink to {{ article.title|striptags }}">comment</a>
                 </div>
 
                 {% if loop.last and (articles_page.has_previous() or not articles_page.has_previous() and loop.length > 1) %} 
